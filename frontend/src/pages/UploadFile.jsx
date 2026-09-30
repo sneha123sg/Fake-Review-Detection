@@ -25,7 +25,7 @@ const UploadFile = () => {
         setFile(selectedFile);
         setError("");
       } else {
-        setError("Please upload a CSV file");
+        setError("Please upload a CSV or JSON file");
         setFile(null);
       }
     }
@@ -78,7 +78,7 @@ const UploadFile = () => {
           Batch File Upload
         </h1>
         <p className="text-gray-400">
-          Upload a CSV file containing multiple reviews for analysis
+          Upload a CSV or JSON file containing multiple reviews for analysis
         </p>
       </div>
 
@@ -89,7 +89,7 @@ const UploadFile = () => {
               htmlFor="file"
               className="block text-sm font-medium text-gray-300 mb-2"
             >
-              Select File (CSV)
+              Select File (CSV or JSON)
             </label>
             <input
               type="file"

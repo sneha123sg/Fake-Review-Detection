@@ -82,7 +82,7 @@ const Home = () => {
               Batch Analysis
             </h3>
             <p className="text-gray-400">
-              Upload CSV files to analyze multiple reviews simultaneously.
+              Upload CSV or JSON files to analyze multiple reviews simultaneously.
             </p>
           </div>
         </div>

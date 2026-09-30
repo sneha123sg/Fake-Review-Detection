@@ -60,3 +60,7 @@ model.pkl
 nb_model.pkl
 vectorizer.pkl
 rf_model.pkl
+
+
+generate_dataset.py
+generate_json.py
